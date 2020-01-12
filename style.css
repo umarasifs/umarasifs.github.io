@@ -1,0 +1,124 @@
+html{
+    background: rgb(237, 236, 232);
+    font-family: 'Cute Font', cursive;
+    font-size:150%;
+}
+body{
+margin: auto;
+}
+
+header{
+    display:block;
+    padding:20px;
+    margin:auto;
+    margin-bottom: auto;
+    position: fixed;
+    width: 100%;
+    background-color:crimson;
+    z-index:10;
+    height:auto;
+}
+.bar ul {
+    text-decoration: false;
+  list-style-type:disc;
+  margin: auto;
+
+  text-align: left;
+}
+.bar li {
+  width:80px;
+  display: inline;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+divider{
+    padding:30px;
+}
+
+.info{
+    display:block;
+    width:95%;
+    margin: auto;
+    top:100px;
+    position:relative;
+}
+
+.info h1{
+    margin:auto;
+    
+}
+.background
+{
+    margin: auto;
+    display:block;
+    top:80px;
+    position:relative;
+    height:auto;
+    border: solid rgb(237, 236, 232) 5px ;
+    padding: 300px 0;
+    background-image:url("./background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.aboutme{
+    padding:1%;
+    margin: auto;
+    border:solid black 3px;
+}
+.aboutme p{
+    font-family: Tahoma;
+    
+}
+.contacts{
+    position: relative;
+    top: 50px;
+    margin:5% 2.5%;
+    float:right;
+    border:solid black 3px;
+    padding:3%;
+
+}
+.contacts ul{
+    
+    float:right;
+    list-style-type:none;
+    margin:auto;
+    list-style:none;
+    
+}
+.bar a{
+        text-decoration: none;
+     color: #FFF;
+}
+.bar a:hover{
+     color: rgb(232, 232, 218);
+}
+.contacts a{
+    text-decoration: none;
+    color: black;
+}
+.contacts li{
+    text-decoration: none;
+    background:rgb(237, 237, 213);
+    border: solid black 1px;
+    text-decoration: none;
+    display: inline;
+    padding:10px;
+    margin:10px;
+}
+.bottom{
+    display:block;
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    height:100px;
+    background-color: antiquewhite;
+}
+.contacts li:hover{
+    background-color:rgb(204, 204, 173);
+}
