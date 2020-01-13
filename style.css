@@ -58,7 +58,7 @@ divider{
     position:relative;
     height:auto;
     border: solid rgb(237, 236, 232) 5px ;
-    padding: 300px 0;
+    padding: 200px 0;
     background-image:url("./background.jpg");
     background-size: cover;
     background-position: center center;
